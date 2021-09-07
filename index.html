@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  <link
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
@@ -41,5 +47,62 @@
       </div>
     </div>
   </nav>
+  <header>
+    <section>
+      <div>
+        <h1 class="texteGras">
+          Trouvez votre hébergements pour vos vacances de rêve
+        </h1>
+        <p>En plein centre ville ou en pleine nature</p>
+      </div>
+      <div class="bordureSearch flexCentre">
+        <div class="backGris flexCentre iconSize">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div>
+          <input
+            class="recherche flexCentre bordureNone paddingSearch"
+            type="search"
+            value="Marseille , France"
+          />
+        </div>
+        <div class="backBleu flexCentre buttonSearch">Rechercher</div>
+      </div>
+      <div class="mobileFiltreWrap filtre margFiltre">
+        <div class="margFiltreTitre"><h3>Filtres</h3></div>
+        <!-- rajoute 2 div flexAround pour separer en mobile -->
+        <!-- div1 -->
+        <div class="flexAround">
+          <div class="flexBetween filtreTexteIcons">
+            <i
+              class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"
+            ></i>
+            <div class="filtreTexte flexCentre">Economiques</div>
+          </div>
+          <div class="flexBetween filtreTexteIcons">
+            <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
+            <div class="filtreTexte flexCentre">Familiales</div>
+          </div>
+        </div>
+        <!-- div2 -->
+        <div class="mobileFiltreWrap flexAround">
+          <div class="flexBetween filtreTexteIcons">
+            <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
+            <div class="filtreTexte flexCentre">Romantiques</div>
+          </div>
+          <div class="flexBetween filtreTexteIcons">
+            <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
+            <div class="filtreTexte flexCentre">Animaux autorisés</div>
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div class="parentIcon flexCentre">
+          <i class="fas fa-info fa-xs colorBleu"></i>
+        </div>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+  </header>
 </body>
 </html>
