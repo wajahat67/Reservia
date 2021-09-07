@@ -1,0 +1,93 @@
+/* GENERAL */
+html,
+body {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+.flexCentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexColumnCentre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexColumnAround {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flexColumnBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.decorationNone {
+  text-decoration: none;
+}
+.bordureNone {
+  border: none;
+}
+.texteGras {
+  font-weight: bold;
+}
+.colorBleu {
+  color: #0065fc;
+}
+.colorBleuClair {
+  color: #deebff;
+}
+.colorGris {
+  color: #f2f2f2;
+}
+.backBleu {
+  background-color: #0065fc;
+}
+.backBleuClair {
+  background-color: #deebff;
+}
+.backGris {
+  background-color: #f2f2f2;
+}
+/* NAV */
+.sizeNav {
+  height: 100px;
+}
+.sizeLiens {
+  width: 100%;
+}
+.sizeLien12 {
+  margin-left: 60%;
+}
+.sizeLien {
+  width: 140px;
+  height: 99px;
+}
+.colorLien2 {
+  color: black;
+}
+.bordureNav {
+  border-top: 1px solid transparent;
+}
+.bordureNav:hover {
+  border-top: 1px solid #0065fc;
+  cursor: pointer;
+}
+.bordureNav:hover > a {
+  color: #0065fc;
+}
+.marglogo {
+  margin-bottom: 7px;
+}
