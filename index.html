@@ -26,19 +26,19 @@
           class="marglogo"
           src="./img/logo/Reservia@3x.png"
           alt="Logo Reservia"
-          width="120px"
-          height="50px"
+          width="120"
+          height="50"
         />
       </div>
 
       <!-- je rajoute une div qui englobe les deux liens hebergement et activités -->
       <div class="sizeLien12 flexCentre">
-        <div class="sizeLien flexCentre bordureNav">
+        <div class="sizeLien sizeLienMobile flexCentre bordureNav">
           <a class="colorLien2 decorationNone" href="#hebergements"
             >Hébergements</a
           >
         </div>
-        <div class="sizeLien flexCentre bordureNav">
+        <div class="sizeLien sizeLienMobile flexCentre bordureNav">
           <a class="colorLien2 decorationNone" href="#activites">Activités</a>
         </div>
       </div>
@@ -66,7 +66,10 @@
             value="Marseille , France"
           />
         </div>
-        <div class="backBleu flexCentre buttonSearch">Rechercher</div>
+        <div class="backBleu flexCentre buttonSearch">
+          <span class="mobileNone">Recherche</span>
+          <span class="desktopNone"><i class="fas fa-search"></i></span>
+        </div>
       </div>
       <div class="mobileFiltreWrap filtre margFiltre">
         <div class="margFiltreTitre"><h3>Filtres</h3></div>
@@ -297,46 +300,28 @@
       </div>
     </section>
     <footer>
-      <div class="footer backGris flexBetween">
-        <div class="margeBlocFoot1 tailleBlocFoot">
+      <div class="bloc-footer">
           <h3>A propos</h3>
-          <div class="divLienFoot">
-            <a href="#" class="decorationNone lienFoot"
-              >Fonctionnement du site</a
-            >
-          </div>
-          <div class="divLienFoot">
-            <a href="#" class="decorationNone lienFoot"
-              >Conditions générales de vente</a
-            >
-          </div>
-          <div class="divLienFoot">
-            <a href="#" class="decorationNone lienFoot"
-              >Données et confidentialité</a
-            >
-          </div>
-        </div>
-        <div class="tailleBlocFoot">
-          <h3>Nos hébergements</h3>
-          <div class="divLienFoot">
-            <a href="#" class="decorationNone lienFoot">Charte qualité</a>
-          </div>
-          <div class="divLienFoot">
-            <a href="#" class="decorationNone lienFoot"
-              >Soumettre votre hôtel</a
-            >
-          </div>
-        </div>
-        <div class="margeBlocFoot3 tailleBlocFoot">
-          <h3>Assistance</h3>
-          <div class="divLienFoot">
-            <a href="#" class="decorationNone lienFoot">Centre d'aide</a>
-          </div>
-          <div class="divLienFoot">
-            <a href="#" class="decorationNone lienFoot">Nous contacter</a>
-          </div>
-        </div>
+        
+              <p>Fonctionnement du site</p>
+              <p>Conditions générales de vente</p>
+              <p>Données et confidentialité</p>
+          
       </div>
-    </footer>
+      <div class="bloc-footer">
+          <h3>Nos hébergements</h3>
+         
+             <p>Charte qualité</p>
+             <p>Soumettre votre hôtel</p>
+         
+      </div>
+      <div class="bloc-footer">
+          <h3>Assistance</h3>
+          
+              <p>Centre d'aide</p>
+              <p>Nous contacter</p>
+          
+      </div>
+  </footer>
 </body>
 </html>
